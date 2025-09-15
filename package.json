@@ -1,0 +1,30 @@
+{
+  "name": "business-trip-administration",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "repository": "<Add your repository here>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@sap/cds": "^9",
+    "express": "^4"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^2",
+    "@cap-js/cds-types": "^0.13.0"
+  },
+  "scripts": {
+    "start": "cds-serve",
+    "watch-employee": "cds watch --open employee/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-backoffice-employee": "cds watch --open backoffice-employee/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-administrator": "cds watch --open administrator/webapp/index.html?sap-ui-xx-viewCache=false"
+  },
+  "sapux": [
+    "app/employee",
+    "app/backoffice-employee",
+    "app/administrator"
+  ]
+}
