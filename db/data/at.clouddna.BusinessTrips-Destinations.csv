@@ -1,0 +1,10 @@
+ID,city,createdAt,createdBy,modifiedAt,modifiedBy
+1,Vienna,2023-11-15T10:00:00Z,system,2024-06-01T12:00:00Z,system
+2,Frankfurt,2023-11-15T10:00:00Z,system,2024-06-01T12:00:00Z,system
+3,Zurich,2023-11-15T10:00:00Z,system,2024-06-01T12:00:00Z,system
+4,Dubai,2023-11-15T10:00:00Z,system,2024-06-01T12:00:00Z,system
+5,Doha,2023-11-15T10:00:00Z,system,2024-06-01T12:00:00Z,system
+6,Istanbul,2023-11-15T10:00:00Z,system,2024-06-01T12:00:00Z,system
+7,London,2023-11-15T10:00:00Z,system,2024-06-01T12:00:00Z,system
+8,Paris,2023-11-15T10:00:00Z,system,2024-06-01T12:00:00Z,system
+9,New York,2023-11-15T10:00:00Z,system,2024-06-01T12:00:00Z,system

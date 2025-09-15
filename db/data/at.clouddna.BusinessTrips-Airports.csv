@@ -1,0 +1,11 @@
+code,name,city,createdAt,createdBy,modifiedAt,modifiedBy
+VIE,Vienna International Airport,Vienna,2023-11-15T10:00:00Z,system,2024-06-01T12:00:00Z,system
+MUC,Frankfurt Airport,Frankfurt,2023-11-15T10:00:00Z,system,2024-06-01T12:00:00Z,system
+FRA,Frankfurt Airport,Frankfurt,2023-11-15T10:00:00Z,system,2024-06-01T12:00:00Z,system
+ZRH,Zurich Airport,Zurich,2023-11-15T10:00:00Z,system,2024-06-01T12:00:00Z,system
+DXB,Dubai International Airport,Dubai,2023-11-15T10:00:00Z,system,2024-06-01T12:00:00Z,system
+DOH,Hamad International Airport,Doha,2023-11-15T10:00:00Z,system,2024-06-01T12:00:00Z,system
+IST,Istanbul Airport,Istanbul,2023-11-15T10:00:00Z,system,2024-06-01T12:00:00Z,system
+LHR,Heathrow Airport,London,2023-11-15T10:00:00Z,system,2024-06-01T12:00:00Z,system
+CDG,Charles de Gaulle Airport,Paris,2023-11-15T10:00:00Z,system,2024-06-01T12:00:00Z,system
+JFK,John F. Kennedy International Airport,New York,2023-11-15T10:00:00Z,system,2024-06-01T12:00:00Z,system

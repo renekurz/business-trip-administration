@@ -1,0 +1,11 @@
+code,name,createdAt,createdBy,modifiedAt,modifiedBy
+OS,Austrian Airlines,2023-11-15T10:00:00Z,system,2024-06-01T12:00:00Z,system
+LH,Lufthansa,2023-11-15T10:00:00Z,system,2024-06-01T12:00:00Z,system
+LX,Swiss International Airlines,2023-11-15T10:00:00Z,system,2024-06-01T12:00:00Z,system
+EK,Emirates,2023-11-15T10:00:00Z,system,2024-06-01T12:00:00Z,system
+QR,Qatar Airways,2023-11-15T10:00:00Z,system,2024-06-01T12:00:00Z,system
+TK,Turkish Airlines,2023-11-15T10:00:00Z,system,2024-06-01T12:00:00Z,system
+BA,British Airways,2023-11-15T10:00:00Z,system,2024-06-01T12:00:00Z,system
+AF,Air France,2023-11-15T10:00:00Z,system,2024-06-01T12:00:00Z,system
+DL,Delta Air Lines,2023-11-15T10:00:00Z,system,2024-06-01T12:00:00Z,system
+UA,United Airlines,2023-11-15T10:00:00Z,system,2024-06-01T12:00:00Z,system
