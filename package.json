@@ -30,26 +30,20 @@
     "requires": {
       "[development]": {
         "auth": {
-          "kind": "mocked"
-        },
-        "db": "sqlite",
-        "users": {
-          "employee": {
-            "roles": [
-              "Employee"
-            ]
-          },
-          "backoffice-employee": {
-            "roles": [
-              "BackofficeEmployee"
-            ]
-          },
-          "admin": {
-            "roles": [
-              "Admin"
-            ]
+          "kind": "mocked",
+          "users": {
+            "employee": {
+              "roles": ["authenticated", "Employee"]
+            },
+            "backoffice-employee": {
+              "roles": ["authenticated", "BackofficeEmployee"]
+            },
+            "admin": {
+              "roles": ["authenticated", "Admin"]
+            }
           }
-        }
+        },
+        "db": "sqlite"
       },
       "[production]": {
         "db": "hana",
