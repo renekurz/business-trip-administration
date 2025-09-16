@@ -22,7 +22,7 @@
     },
     "dataSources": {
       "mainService": {
-        "uri": "/odata/v4/business-trip/",
+        "uri": "odata/v4/business-trip/",
         "type": "OData",
         "settings": {
           "annotations": [],

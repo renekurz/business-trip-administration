@@ -6,9 +6,10 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
+    "@cap-js/hana": "^2.2.0",
     "@sap/cds": "^9",
-    "express": "^4",
-    "@sap/xssec": "^4"
+    "@sap/xssec": "^4",
+    "express": "^4"
   },
   "engines": {
     "node": ">=20"
@@ -20,15 +21,9 @@
   },
   "scripts": {
     "start": "cds-serve",
-    "watch-employee": "cds watch --open employee/webapp/index.html?sap-ui-xx-viewCache=false",
-    "watch-backoffice-employee": "cds watch --open backoffice-employee/webapp/index.html?sap-ui-xx-viewCache=false",
-    "watch-administrator": "cds watch --open administrator/webapp/index.html?sap-ui-xx-viewCache=false",
     "watch-businesstrip": "cds watch --open businesstrip/webapp/index.html?sap-ui-xx-viewCache=false"
   },
   "sapux": [
-    "app/employee",
-    "app/backoffice-employee",
-    "app/administrator",
     "app/businesstrip"
   ],
   "cds": {
@@ -37,6 +32,7 @@
         "auth": {
           "kind": "mocked"
         },
+        "db": "sqlite",
         "users": {
           "employee": {
             "roles": [
