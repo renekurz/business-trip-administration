@@ -61,6 +61,8 @@
       "libs": {
         "sap.m": {},
         "sap.ui.core": {},
+        "sap.fe.templates": {},
+        "sap.fe.core": {}
       }
     },
     "contentDensities": {
@@ -100,7 +102,9 @@
           "target": "BusinessTripsList"
         },
         {
-
+          "name": "BusinessTripsBusinessTripPage",
+          "pattern": "BusinessTrips({BusinessTripsKey}):?query:",
+          "target": "BusinessTripsBusinessTripPage"
         }
       ],
       "targets": {
@@ -115,14 +119,38 @@
               "navigation": {
                 "BusinessTrips": {
                   "detail": {
-
+                    "route": "BusinessTripsBusinessTripPage"
                   }
                 }
               },
               "controlConfiguration": {
                 "@com.sap.vocabularies.UI.v1.LineItem": {
                   "tableSettings": {
-
+                    "type": "ResponsiveTable",
+                    "selectAll": false,
+                    "selectionLimit": 1,
+                    "selectionMode": "Single",
+                    "personalization": {
+                      "filter": true,
+                      "sort": true
+                    }
+                  }
+                }
+              },
+              "initialLoad": "Enabled",
+              "hideFilterBar": false
+            }
+          }
+        },
+        "BusinessTripsBusinessTripPage": {
+          "type": "Component",
+          "id": "BusinessTripsBusinessTripPage",
+          "name": "sap.fe.core.fpm",
+          "options": {
+            "settings": {
+              "navigation": {},
+              "contextPath": "/BusinessTrips",
+              "viewName": "at.clouddna.businesstrip.ext.view.BusinessTrip"
             }
           }
         }

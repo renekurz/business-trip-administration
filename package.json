@@ -30,7 +30,20 @@
     "requires": {
       "[development]": {
         "auth": {
-
+          "kind": "mocked",
+          "users": {
+            "employee": {
+              "roles": ["authenticated", "Employee"]
+            },
+            "backoffice-employee": {
+              "roles": ["authenticated", "BackofficeEmployee"]
+            },
+            "admin": {
+              "roles": ["authenticated", "Admin"]
+            }
+          }
+        },
+        "db": "sqlite"
       },
       "[production]": {
         "db": "hana",
