@@ -1,6 +1,6 @@
 using { at.clouddna.BusinessTrips as bt } from '../db/schema';
 
-service BusinessTripService @(requires: 'authenticated') {
+
     // Hauptentitäten
     entity BusinessTrips as projection on bt.BusinessTrips;
     entity Comments as projection on bt.Comments;
@@ -23,5 +23,5 @@ service BusinessTripService @(requires: 'authenticated') {
     action changeStatus(businessTripId: UUID, newStatus: String) returns String;
     action cancelTrip(businessTripId: UUID, reason: String) returns String;
     action archiveOldTrips(olderThan: Date) returns String;
-    action whoami() returns String;
+
 }
