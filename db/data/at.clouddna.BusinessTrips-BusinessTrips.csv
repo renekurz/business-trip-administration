@@ -1,0 +1,1 @@
+ID,startDate,endDate,destination_ID,transportMode_ID,returnFlightRoute_ID,outboundFlightRoute_ID,departureDate,returnDate,needHotel,freeText,status_ID,flightBookingId,hotelBookingId,createdAt,createdBy,modifiedAt,modifiedBy

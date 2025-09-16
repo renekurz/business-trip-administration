@@ -1,0 +1,41 @@
+{
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.Employee",
+      "description": "Employee Role"
+    },
+    {
+      "name": "$XSAPPNAME.BackofficeEmployee",
+      "description": "Backoffice Employee Role"
+    },
+    {
+      "name": "$XSAPPNAME.Admin",
+      "description": "Administrator Role"
+    }
+  ],
+  "attributes": [],
+  "role-templates": [
+    {
+      "name": "Employee",
+      "description": "Employee Role",
+      "scope-references": [
+        "$XSAPPNAME.Employee"
+      ]
+    },
+    {
+      "name": "BackofficeEmployee",
+      "description": "Backoffice Employee Role",
+      "scope-references": [
+        "$XSAPPNAME.BackofficeEmployee"
+      ]
+    },
+    {
+      "name": "Admin",
+      "description": "Administrator Role",
+      "scope-references": [
+        "$XSAPPNAME.Admin"
+      ]
+    }
+  ],
+  "authorities-inheritance": false
+}

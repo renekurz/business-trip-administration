@@ -1,0 +1,4 @@
+ID,mode,createdAt,createdBy,modifiedAt,modifiedBy
+1,FLIGHT,2023-11-15T10:00:00Z,system,2024-06-01T12:00:00Z,system
+2,TRAIN,2023-11-15T10:00:00Z,system,2024-06-01T12:00:00Z,system
+3,CAR,2023-11-15T10:00:00Z,system,2024-06-01T12:00:00Z,system
